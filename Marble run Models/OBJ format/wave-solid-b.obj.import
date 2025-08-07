@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dy4yyhem2mlhm"
+path="res://.godot/imported/wave-solid-b.obj-35a24267f7de605258195b76cdc7429f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wave-solid-b.obj-35a24267f7de605258195b76cdc7429f.mesh"]
+
+source_file="res://Marble run Models/OBJ format/wave-solid-b.obj"
+dest_files=["res://.godot/imported/wave-solid-b.obj-35a24267f7de605258195b76cdc7429f.mesh", "res://.godot/imported/wave-solid-b.obj-35a24267f7de605258195b76cdc7429f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,42 @@
+[gd_scene load_steps=9 format=3 uid="uid://debic88nmjiby"]
+
+[ext_resource type="Script" uid="uid://l4wkxpc5vype" path="res://addons/Basic FPS Player/Src/basic_player_startup.gd" id="1_onrkg"]
+[ext_resource type="PackedScene" uid="uid://kmyakts4l64t" path="res://addons/Basic FPS Player/Src/basic_player_head.tscn" id="2_i3pqv"]
+[ext_resource type="PackedScene" uid="uid://ct4oug5vif1qi" path="res://Scenes/blaster.tscn" id="3_i3pqv"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_onrkg"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_onrkg"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_i3pqv"]
+seamless = true
+seamless_blend_skirt = 0.876
+noise = SubResource("FastNoiseLite_onrkg")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i3pqv"]
+albedo_color = Color(1, 1, 0.345098, 1)
+albedo_texture = SubResource("NoiseTexture2D_i3pqv")
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_hqtel"]
+
+[node name="Node3D" type="RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+script = ExtResource("1_onrkg")
+MAX_SPEED = 15.0
+BRAKE_FORCE = 1.0
+HEAD_BOB = false
+FRICTION = 0.1
+metadata/_custom_type_script = "uid://l4wkxpc5vype"
+
+[node name="Head" parent="." instance=ExtResource("2_i3pqv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.305169, -0.559279)
+
+[node name="blaster" parent="Head" instance=ExtResource("3_i3pqv")]
+transform = Transform3D(1, 0, 0, 0, 0.999848, -0.0174524, 0, 0.0174524, 0.999848, 0.5, -0.2, -0.3)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_onrkg")
+surface_material_override/0 = SubResource("StandardMaterial3D_i3pqv")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_hqtel")

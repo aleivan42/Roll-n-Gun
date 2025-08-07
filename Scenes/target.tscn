@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cwyiw7v5iry61"]
+
+[ext_resource type="Script" uid="uid://dcc62sjpwdsp3" path="res://Scenes/target.gd" id="1_ls7vh"]
+[ext_resource type="ArrayMesh" uid="uid://c5w38e5pmxc2x" path="res://blasters/Models/OBJ format/target-large.obj" id="1_vq1qf"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_e1yvt"]
+height = 0.107239
+radius = 0.181641
+
+[node name="Node3D" type="StaticBody3D"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+script = ExtResource("1_ls7vh")
+
+[node name="Target-large" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00348926, 0, 0.012888)
+mesh = ExtResource("1_vq1qf")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, -0.00106812, -4.66888e-11, 0)
+shape = SubResource("CylinderShape3D_e1yvt")

@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ceaer3l365ypi"
+path="res://.godot/imported/corner-solid.obj-e97f62b43acccadd1c85e2f30471e6ba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/corner-solid.obj-e97f62b43acccadd1c85e2f30471e6ba.mesh"]
+
+source_file="res://Marble run Models/OBJ format/corner-solid.obj"
+dest_files=["res://.godot/imported/corner-solid.obj-e97f62b43acccadd1c85e2f30471e6ba.mesh", "res://.godot/imported/corner-solid.obj-e97f62b43acccadd1c85e2f30471e6ba.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

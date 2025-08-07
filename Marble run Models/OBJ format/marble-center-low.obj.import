@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ciclnfiy560ff"
+path="res://.godot/imported/marble-center-low.obj-92b8e8c4d77a14722b4a5a71f0591f53.mesh"
+
+[deps]
+
+files=["res://.godot/imported/marble-center-low.obj-92b8e8c4d77a14722b4a5a71f0591f53.mesh"]
+
+source_file="res://Marble run Models/OBJ format/marble-center-low.obj"
+dest_files=["res://.godot/imported/marble-center-low.obj-92b8e8c4d77a14722b4a5a71f0591f53.mesh", "res://.godot/imported/marble-center-low.obj-92b8e8c4d77a14722b4a5a71f0591f53.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

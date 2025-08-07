@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dn1dnsxffa72g"
+path="res://.godot/imported/bend-large.obj-2b4f24ce625e07a0b8bbd6742830c536.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bend-large.obj-2b4f24ce625e07a0b8bbd6742830c536.mesh"]
+
+source_file="res://Marble run Models/OBJ format/bend-large.obj"
+dest_files=["res://.godot/imported/bend-large.obj-2b4f24ce625e07a0b8bbd6742830c536.mesh", "res://.godot/imported/bend-large.obj-2b4f24ce625e07a0b8bbd6742830c536.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

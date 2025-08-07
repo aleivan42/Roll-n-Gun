@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4r8k4tryuxy4"
+path="res://.godot/imported/helix-half-right.obj-5e2a2448e464d31a82e8691db8d26bde.mesh"
+
+[deps]
+
+files=["res://.godot/imported/helix-half-right.obj-5e2a2448e464d31a82e8691db8d26bde.mesh"]
+
+source_file="res://Marble run Models/OBJ format/helix-half-right.obj"
+dest_files=["res://.godot/imported/helix-half-right.obj-5e2a2448e464d31a82e8691db8d26bde.mesh", "res://.godot/imported/helix-half-right.obj-5e2a2448e464d31a82e8691db8d26bde.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

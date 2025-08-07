@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b1j2ld51ljpwk"
+path="res://.godot/imported/fan-standing-two.obj-6ec50f8b9820572e75e34e9f5e6fdfac.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fan-standing-two.obj-6ec50f8b9820572e75e34e9f5e6fdfac.mesh"]
+
+source_file="res://Marble run Models/OBJ format/fan-standing-two.obj"
+dest_files=["res://.godot/imported/fan-standing-two.obj-6ec50f8b9820572e75e34e9f5e6fdfac.mesh", "res://.godot/imported/fan-standing-two.obj-6ec50f8b9820572e75e34e9f5e6fdfac.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

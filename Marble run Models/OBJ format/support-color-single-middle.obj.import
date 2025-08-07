@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b33jd5vgx57s"
+path="res://.godot/imported/support-color-single-middle.obj-1d1da9f5d20202b4986336cd394f29ab.mesh"
+
+[deps]
+
+files=["res://.godot/imported/support-color-single-middle.obj-1d1da9f5d20202b4986336cd394f29ab.mesh"]
+
+source_file="res://Marble run Models/OBJ format/support-color-single-middle.obj"
+dest_files=["res://.godot/imported/support-color-single-middle.obj-1d1da9f5d20202b4986336cd394f29ab.mesh", "res://.godot/imported/support-color-single-middle.obj-1d1da9f5d20202b4986336cd394f29ab.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

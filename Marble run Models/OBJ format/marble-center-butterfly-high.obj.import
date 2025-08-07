@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://du3i682758ecw"
+path="res://.godot/imported/marble-center-butterfly-high.obj-4910ff0b9936e9413217656dfc21b96a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/marble-center-butterfly-high.obj-4910ff0b9936e9413217656dfc21b96a.mesh"]
+
+source_file="res://Marble run Models/OBJ format/marble-center-butterfly-high.obj"
+dest_files=["res://.godot/imported/marble-center-butterfly-high.obj-4910ff0b9936e9413217656dfc21b96a.mesh", "res://.godot/imported/marble-center-butterfly-high.obj-4910ff0b9936e9413217656dfc21b96a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

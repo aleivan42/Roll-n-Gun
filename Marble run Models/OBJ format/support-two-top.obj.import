@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bgqhk0ircm7xe"
+path="res://.godot/imported/support-two-top.obj-27e1cc1d2ad8f43b48defb0aa50b3506.mesh"
+
+[deps]
+
+files=["res://.godot/imported/support-two-top.obj-27e1cc1d2ad8f43b48defb0aa50b3506.mesh"]
+
+source_file="res://Marble run Models/OBJ format/support-two-top.obj"
+dest_files=["res://.godot/imported/support-two-top.obj-27e1cc1d2ad8f43b48defb0aa50b3506.mesh", "res://.godot/imported/support-two-top.obj-27e1cc1d2ad8f43b48defb0aa50b3506.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

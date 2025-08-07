@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cny0i1r36hgvu"
+path="res://.godot/imported/scope-large-b.obj-16334805e2cb2de22d750b5836a4b5e4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/scope-large-b.obj-16334805e2cb2de22d750b5836a4b5e4.mesh"]
+
+source_file="res://blasters/Models/OBJ format/scope-large-b.obj"
+dest_files=["res://.godot/imported/scope-large-b.obj-16334805e2cb2de22d750b5836a4b5e4.mesh", "res://.godot/imported/scope-large-b.obj-16334805e2cb2de22d750b5836a4b5e4.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

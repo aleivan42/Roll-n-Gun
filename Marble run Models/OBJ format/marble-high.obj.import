@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cx3wx7l4ktvly"
+path="res://.godot/imported/marble-high.obj-872918c5200351ce7d8120d277f6ffce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/marble-high.obj-872918c5200351ce7d8120d277f6ffce.mesh"]
+
+source_file="res://Marble run Models/OBJ format/marble-high.obj"
+dest_files=["res://.godot/imported/marble-high.obj-872918c5200351ce7d8120d277f6ffce.mesh", "res://.godot/imported/marble-high.obj-872918c5200351ce7d8120d277f6ffce.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

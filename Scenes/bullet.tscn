@@ -1,0 +1,84 @@
+[gd_scene load_steps=13 format=3 uid="uid://dvdtx26jvd7kh"]
+
+[ext_resource type="Script" uid="uid://ba30rsbe8i0dw" path="res://bullet.gd" id="1_xjght"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_v7oki"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2b2rl"]
+albedo_color = Color(1, 1, 0.176471, 1)
+emission_enabled = true
+emission = Color(1, 1, 0, 1)
+emission_energy_multiplier = 5.5
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_v7oki"]
+
+[sub_resource type="Curve" id="Curve_v7oki"]
+_limits = [-360.0, 360.0, -85.33, 1.0]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 335.73), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_v8qja"]
+curve = SubResource("Curve_v7oki")
+
+[sub_resource type="Curve" id="Curve_t4vbm"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_2b2rl"]
+curve = SubResource("Curve_t4vbm")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_b7duk"]
+particle_flag_disable_z = true
+particle_flag_damping_as_friction = true
+angle_curve = SubResource("CurveTexture_v8qja")
+direction = Vector3(0, 0, 0)
+spread = 180.0
+initial_velocity_min = 12.0
+initial_velocity_max = 12.0
+gravity = Vector3(0, -5, 0)
+radial_accel_min = 2.0
+radial_accel_max = 2.0
+damping_min = 0.3
+damping_max = 0.3
+scale_curve = SubResource("CurveTexture_2b2rl")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t4vbm"]
+albedo_color = Color(1, 1, 0, 1)
+emission_enabled = true
+emission = Color(0.886275, 1, 0, 1)
+emission_energy_multiplier = 8.15
+
+[sub_resource type="BoxMesh" id="BoxMesh_2b2rl"]
+material = SubResource("StandardMaterial3D_t4vbm")
+size = Vector3(0.04, 0.04, 0.04)
+
+[sub_resource type="Skin" id="Skin_b7duk"]
+
+[node name="bullet" type="Area3D"]
+script = ExtResource("1_xjght")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.4, 0, 0, 0, -1.74846e-08, 0.4, 0, -0.4, -1.74846e-08, 0, 0, 0)
+mesh = SubResource("SphereMesh_v7oki")
+surface_material_override/0 = SubResource("StandardMaterial3D_2b2rl")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.4, 0, 0, 0, -1.74846e-08, 0.4, 0, -0.4, -1.74846e-08, 0, 0, 0)
+shape = SubResource("SphereShape3D_v7oki")
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="."]
+emitting = false
+amount = 15
+one_shot = true
+explosiveness = 1.0
+randomness = 0.5
+process_material = SubResource("ParticleProcessMaterial_b7duk")
+draw_pass_1 = SubResource("BoxMesh_2b2rl")
+draw_skin = SubResource("Skin_b7duk")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

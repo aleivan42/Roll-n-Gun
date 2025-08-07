@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://47d5kng8k5eg"
+path="res://.godot/imported/banner-double-high.obj-a136eac66a7477a6d1272799ad05bbb9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/banner-double-high.obj-a136eac66a7477a6d1272799ad05bbb9.mesh"]
+
+source_file="res://Marble run Models/OBJ format/banner-double-high.obj"
+dest_files=["res://.godot/imported/banner-double-high.obj-a136eac66a7477a6d1272799ad05bbb9.mesh", "res://.godot/imported/banner-double-high.obj-a136eac66a7477a6d1272799ad05bbb9.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
